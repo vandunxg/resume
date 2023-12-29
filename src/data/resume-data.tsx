@@ -20,47 +20,48 @@ import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "NGUYEN VAN DUNG",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "Au Co, Ha Noi",
+  locationLink: "https://www.google.com/maps/place/259+%C4%90.+%C3%82u+C%C6%A1,+Qu%E1%BA%A3ng+An,+T%C3%A2y+H%E1%BB%93,+H%C3%A0+N%E1%BB%99i,+Vietnam/@21.0698101,105.8233029,17z/data=!3m1!4b1!4m6!3m5!1s0x3135aaf77554eae1:0xe6173fdc8e65d0c9!8m2!3d21.0698101!4d105.8258778!16s%2Fg%2F11dznwfj57?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Backend Intern specializing in Java mobile development, with a strong emphasis on learning and honing skills for IT projects.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Hi everyone, my name is Nguyen Van Dung, but you can call me "vandunxg". I'm a intern studying Infomation Technology at University of Transport Technology. I love learning about new technologies such as Programing Language, Big Data, BlockChain... I want to acquire all the skills I can use for my profession and I want to be a Developer soon. Nice to connect with you!",
+  avatarUrl: "https://avatars.githubusercontent.com/u/e?email=nguyenvandung.official%40gmail.com&s=460",
+  personalWebsiteUrl: "https://vandunxg.vercel.app",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "vandunxg@gmail.com",
+    tel: "+84835595675",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/vandunxg",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/vandunxg/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/vandunxg",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Transport Technology",
+      degree: "Bachelor's Degree in Information Technology",
+      start: "2022",
+      end: "2025",
     },
   ],
   work: [
     {
+      /*
       company: "Parabol",
       link: "https://parabol.co",
       badges: ["Remote"],
@@ -103,34 +104,34 @@ export const RESUME_DATA = {
       end: "2012",
       description: "Creating and testing software for LTE base stations",
     },
+    */
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "C",
+    "C++",
+    "C#",
+    "SQL",
+    "PostgreSQL (Updating)",
+    "Java (updating)",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Dormitory Management",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "C#",
+        ".NET",
+        "Bunifu UI",
+        "TSQL",
+        "iconsax",
       ],
-      description: "A platform to build and grow your online business",
+      description: "An application for managing dormitories in school",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
-        href: "https://consultly.com/",
+        href: "https://github.com/vandunxg/DormitoryManagement",
       },
     },
+    /*
     {
       title: "Monito",
       techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
@@ -274,5 +275,6 @@ export const RESUME_DATA = {
         "Video streaming mobile application for Canal Digital subscribers",
       logo: CDGOLogo,
     },
+    */
   ],
 } as const;
