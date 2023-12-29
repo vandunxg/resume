@@ -61,7 +61,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      /*
+      
       company: "Parabol",
       link: "https://parabol.co",
       badges: ["Remote"],
@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       end: "2012",
       description: "Creating and testing software for LTE base stations",
     },
-    */
+    
   ],
   skills: [
     "C",
@@ -131,7 +131,7 @@ export const RESUME_DATA = {
         href: "https://github.com/vandunxg/DormitoryManagement",
       },
     },
-    /*
+    
     {
       title: "Monito",
       techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
@@ -275,6 +275,6 @@ export const RESUME_DATA = {
         "Video streaming mobile application for Canal Digital subscribers",
       logo: CDGOLogo,
     },
-    */
+    
   ],
 } as const;
