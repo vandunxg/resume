@@ -60,6 +60,7 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    /*
     {
       
       company: "Parabol",
@@ -104,7 +105,7 @@ export const RESUME_DATA = {
       end: "2012",
       description: "Creating and testing software for LTE base stations",
     },
-    
+    */
   ],
   skills: [
     "C",
