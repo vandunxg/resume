@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Au Co, Ha Noi",
   locationLink: "https://www.google.com/maps/place/259+%C4%90.+%C3%82u+C%C6%A1,+Qu%E1%BA%A3ng+An,+T%C3%A2y+H%E1%BB%93,+H%C3%A0+N%E1%BB%99i,+Vietnam/@21.0698101,105.8233029,17z/data=!3m1!4b1!4m6!3m5!1s0x3135aaf77554eae1:0xe6173fdc8e65d0c9!8m2!3d21.0698101!4d105.8258778!16s%2Fg%2F11dznwfj57?entry=ttu",
   about:
-    "Backend Intern specializing in Java mobile development, with a strong emphasis on learning and honing skills for IT projects.",
+    "Backend Intern specializing in web development, with a strong emphasis on learning and honing skills for IT projects.",
   summary:
-    "Hi everyone, my name is Nguyen Van Dung, but you can call me vandunxg. I'm a intern studying Infomation Technology at University of Transport Technology. I love learning about new technologies such as Programing Language, Big Data, BlockChain... I want to acquire all the skills I can use for my profession and I want to be a Developer soon. Nice to connect with you!",
+    "Hi everyone, my name is Nguyen Van Dung, but you can call me vandunxg. I'm a intern studying Infomation Technology at University of Transport Technology. I love learning about new technologies such as Programing Language, Big Data, BlockChain... I want to acquire all the skills I can use for my profession and I want to be a Backend Developer soon. Nice to connect with you!",
   avatarUrl: "https://avatars.githubusercontent.com/u/e?email=nguyenvandung.official%40gmail.com&s=460",
   personalWebsiteUrl: "https://vandunxg.vercel.app",
   contact: {
@@ -59,44 +59,54 @@ export const RESUME_DATA = {
       end: "2025",
     },
   ],
-  work: [
+  // work: [
     
-    {
-      company: "vandunxg",
-      link: "https://vandunxg.vercel.app",
-      badges: ["Remote"],
-      title: "Nothing",
-      logo: vandunxg,
-      start: "2020",
-      end: "present",
-      description:
-        "Nothing",
-    },
+  //   {
+  //     company: "vandunxg",
+  //     link: "https://vandunxg.vercel.app",
+  //     badges: ["Remote"],
+  //     title: "Nothing",
+  //     logo: "vandunxg",
+  //     start: "2020",
+  //     end: "present",
+  //     description:
+  //       "Nothing",
+  //   },
     
-  ],
+  // ],
   skills: [
-    "C",
-    "C++",
-    "C#",
-    "SQL",
-    "PostgreSQL (Updating)",
-    "Java (updating)",
+    "Java",
+    "MySql",
+    "Spring"
   ],
   projects: [
     {
-      title: "Dormitory Management",
+      title: "Viavi Streaming Video",
       techStack: [
-        "C#",
-        ".NET",
-        "Bunifu UI",
-        "TSQL",
-        "iconsax",
+        "Spring Boot",
+        "MySql",
+        "JWT",
       ],
-      description: "An application for managing dormitories in school",
+      description: "Viavi - a backend for video stream website ",
       logo: ConsultlyLogo,
       link: {
-        label: "Dormitory Management",
-        href: "https://github.com/vandunxg/DormitoryManagement",
+        label: "Viavi",
+        href: "https://github.com/vandunxg/viavi",
+      },
+    },
+    {
+      title: "Hostay",
+      techStack: [
+        "HTML/CSS",
+        "MySql",
+        "PHP",
+        "Jquery",
+      ],
+      description: " Booking hotel room and hotel management ",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Hostay",
+        href: "https://github.com/vandunxg/hostay",
       },
     },
     
